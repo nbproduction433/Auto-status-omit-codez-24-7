@@ -43,7 +43,7 @@ def Main():
     TOKEN = os.environ.get("TOKEN")
     discord = Discord(TOKEN)
     while True:
-        Run(discord, "online") # Change circle status | dnd, idle, online
+        Run(discord, "dnd") # Change circle status | dnd, idle, online
         time.sleep(5)
 
 if __name__ == "__main__":
